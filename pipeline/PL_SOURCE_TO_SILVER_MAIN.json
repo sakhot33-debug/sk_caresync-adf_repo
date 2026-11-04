@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Read Source Table List",
+				"description": "select table_id  from ctrl.table_config where is_active = 1 and source system='neon_postgres'",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
